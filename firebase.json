@@ -4,7 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "wwwroot",
+    "public": "bin/Release/netstandard2.1/publish/wwwroot",
     "ignore": [
       "firebase.json",
       "**/.*",
