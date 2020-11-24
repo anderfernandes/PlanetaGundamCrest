@@ -1,0 +1,34 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+<ul class="list-unstyled">
+    @foreach (var crest in Crests)
+    {
+        <li class="media">
+            <img src="@crest.Src" class="mr-3" alt="crest.author" style="height:128px; width:128px">
+            <div class="media-body">
+            <h5 class="mt-0 mb-1">@($"{((crest.Voters.Count / TotalVotes) * 100)} %")</h5>
+            @($"@{crest.Author}")
+            </div>
+        </li>
+    }
+</ul>
+
+@code {
+
+    public List<Crest> Crests { get; set; } = new List<Crest>();
+    
+    public int TotalVotes { get; set; } = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        await base.OnInitializedAsync();
+
+        Crests = await JSRuntime.InvokeAsync<List<Crest>>("fetchCrests");
+
+        Crests.ForEach(c => TotalVotes += c.Voters.Count);
+
+    }
+
+}

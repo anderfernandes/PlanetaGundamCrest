@@ -1,0 +1,66 @@
+@page "/vote"
+@layout BlankLayout
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<div class="row d-flex align-items-center m-5">
+    <div class="col-md-12">
+        <h5>Welcome, <em>@Member</em>! Please select the crest you like the most:</h5>
+    </div>
+    @foreach (Crest crest in Crests)
+    {
+    <div class="col-sm-4 col-xs-6">
+        <div class="card mb-4 shadow-sm" 
+            style="background-color:@(Selection == crest.Author ? "gold" : "white"); cursor:pointer"
+            @onclick="(() => Selection = crest.Author)">
+            <img src="@crest.Src" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title text-center">
+                    @($"@{crest.Author}")
+                </h5>
+            </div>
+        </div>
+    </div>  
+    }
+    <div class="col-md-12">
+        <button @onclick="RegisterVote" class="btn btn-block btn-lg btn-success" style="display:@(String.IsNullOrWhiteSpace(Selection) ? "none" : "block")">
+            Click here to confirm your vote to <strong>@($"{Selection}'s")</strong> design
+        </button>
+    </div>
+</div>
+
+@code {
+
+    public List<Crest> Crests { get; set; } = new List<Crest>();
+
+    public string Member { get; set; }
+
+    public string Selection { get; set; }
+
+    public int Count { get; set; } = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        Crests = await JSRuntime.InvokeAsync<List<Crest>>("fetchCrests");
+
+        var member = await JSRuntime.InvokeAsync<string>("getLocalStorageItem", "member");
+
+        if (!String.IsNullOrWhiteSpace(member))
+            Member = member;
+        else
+            NavigationManager.NavigateTo("/login");
+
+    }
+
+    public async Task RegisterVote()
+    {
+        var crest = Crests.Find(crest => crest.Author == Selection);
+        
+        await JSRuntime.InvokeVoidAsync("registerVote", Member, crest.Id);
+
+        NavigationManager.NavigateTo("/");
+    }
+
+}

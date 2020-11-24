@@ -1,0 +1,60 @@
+@layout BlankLayout
+@page "/login"
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<form class="form-signin w-100 p-2 m-auto" style="max-width:330px" @onsubmit="Authenticate">
+    <img class="mb-4" src="https://planetagundam.com/logo.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <label for="inputEmail" class="sr-only">PSN ID</label>
+    <input @bind="PsnId" type="text" class="form-control" placeholder="PSN ID" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input @bind="Password" type="password" class="form-control" placeholder="Password" required>
+    <button type="submit" class="btn btn-lg btn-primary btn-block">
+        Sign in
+    </button>
+    <p class="mt-5 mb-3 text-muted">© Planeta Gundam 2017-2020</p>
+</form>
+<p style="color:red">
+    @if (!String.IsNullOrWhiteSpace(ErrorMessage))
+    {
+        @ErrorMessage
+    }
+</p>
+
+@code {
+
+    public List<Member> Members { get; set; } = new List<Member>();
+
+    public string PsnId { get; set; }
+
+    public string Password { get; set; }
+
+    public string ErrorMessage { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        Members = await JSRuntime.InvokeAsync<List<Member>>("fetchMembers");
+
+    }
+
+    private void Authenticate()
+    {
+        if (Members.FindIndex(member => member.Name == PsnId) > 0)
+        {
+            // Set logged in to true, localStorage
+            NavigationManager.NavigateTo("/vote");
+
+            JSRuntime.InvokeVoidAsync("setLocalStorageItem", "member", PsnId);
+
+            ErrorMessage = "";
+        }
+        else
+        {
+            ErrorMessage = "Invalid credentials";
+        }
+    }
+
+}
+
