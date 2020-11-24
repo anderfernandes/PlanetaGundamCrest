@@ -7,7 +7,7 @@
         <li class="media">
             <img src="@crest.Src" class="mr-3" alt="crest.author" style="height:128px; width:128px">
             <div class="media-body">
-            <h5 class="mt-0 mb-1">@($"{((crest.Voters.Count / TotalVotes) * 100)} %")</h5>
+            <h5 class="mt-0 mb-1">@($"{(((double)crest.Voters.Count / TotalVotes) * 100)} %")</h5>
             @($"@{crest.Author}")
             </div>
         </li>
@@ -18,7 +18,7 @@
 
     public List<Crest> Crests { get; set; } = new List<Crest>();
     
-    public int TotalVotes { get; set; } = 0;
+    public double TotalVotes { get; set; } = 0;
 
     protected override async Task OnInitializedAsync()
     {

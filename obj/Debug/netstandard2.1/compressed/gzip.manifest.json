@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RCURnft_ThBSBfw-2jHx_8TEa8sTgzcabbvJETRVoDs=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Wst8GnmHwwoD3rEhbE83mv65Q1DJsPrT1m72XfJFDRI=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PlanetaGundam.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PlanetaGundam.dll.gz"
     },
@@ -256,7 +256,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FyyA8JdlalxJ9AZHBlGUpyuX6_QZixEipXS2SzO3niM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\q5x7Wz3No6Dsgq7cSV_-EgEDAcYrcMDHlWG62dCDG-E=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PlanetaGundam.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PlanetaGundam.pdb.gz"
     },
@@ -281,7 +281,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6mkVqN3hLlPL_mI_CpZL-zgbsVDogC1aTheqH7izYDk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\b_qnmlXBedqch4pJckGHq7yNEF1ppj5W77n_WXYeSqk=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
