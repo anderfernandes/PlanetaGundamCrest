@@ -1,17 +1,17 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zNNYkYgXUVIltkz3ZldbEnBhj_TAOoUZupFQ5-QcJLQ=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-X8-8c1N1IOESLGgAQJwbAI6ZlpfdhOb41OUzAd8nds=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8Y81Uo_Tbj6ngvNjD4phYLNb8TOtx1min8pVf_a9u4k=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\eUdcT2nS3uGhh0sOsCJpRlk7wDDTlPcD83IeCXvAN-I=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\fHoBQmSjnUlYnUA-d8ul4oXejdrDkqnxnxWne5oc5sE=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\tRn1HxeInsxD00dn_RIkx2las2jofWzwWrWVIXVlcGc=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
     },
@@ -21,47 +21,47 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\78uFzx34cQpMaBmDCM0jAg0vqh0NXtFDhy_QA7JYvQ0=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\_vuLkWZk-5t00rPz3s6iBo8CM0bxf0yI_WLJ5TDPk38=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\BfYtu3H4Zgg7bvNsqVFXyNja3fry1FtanzTgvbJtPa4=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VJEbsaI5pQnGOAF_V6YDb2lIwfy7St9hXBh3NMlp9XQ=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NrdIfyFLJxXc0434r2GHZ8-v_y6dNFHkfdxri9BUUk8=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\1t3Cc1SmlmuZ4oGAHSfoEz9oSNS8cMSAGVCLTa4FhCs=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\EKwANabUMEJLj8o5l4HPXz7hSkTTS12eo7TpdD_07TI=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\QLQAFHU-bVBZmzSj_-88lLRpqzcp_WGzDT9xy2yynb4=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\obO9TrpgSP6v8xtzgiIU7wMjgEkGk4d9uWDyb_dUe-Y=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\8I1CvJ3reL_uZQ3c5PDFK5SuVMj-m8jnX6hmRd9r9es=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\lgk2ptL2yiIwa2sVIrQI-MGkqStr4x79yNR4n7Byh74=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\yAjo4eHZGegGNbqdzihnxHkV6f4xkO1ZAHAJNcVF0R8=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ICtnIfu9zyzDyVWcrK7Bl1y9oykETkR2MpK2NJdzbwY=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\JyQ0Z4-ayGudJTs0ygP6CwGgKKEs2tNCeKGtcH-9aK4=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\G__czBVXZGowDAFeBtxqVFww33ghUxGkWcLCtfD7opk=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\wPLSQiE8jFB1or7LQ910NailpbKBscAm1JhrXqPcRYo=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NlKZ35Q7kqc6iMTr9TU4cB6MVKCLHFezv_x1K5hsNzk=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\J5VYRqUgCE_o7_TISJB3zvqEwRQ20OaF4Ctq0VkKujo=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
     },
@@ -76,52 +76,52 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\RH68B9H6WaAvOOAP-KV20PrQ4jNfarEeOsLN8M8Yf6o=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\QoGMShx3Qy2bNx5jUCOkldTw3ZB_KXeVPhAViooNnLg=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\rTJQ8jFk9_GVZSeuNhkNbQTpyBqs1S3uS1geMGcZuNo=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\05Duh8zXRA4ii96A1B3cWvihpkvW7cZsIeQYv3_b160=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\PlanetaGundam.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/PlanetaGundam.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\JBQiOVTidWacPzPVB8kCvb_irEGJWUyES7l307bDgJU=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\uFj2s-DXa6qdcJC4NHH4QpyJU4C7Dl46uBL1e7wtwpc=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\nOm_RtxlqbniHnIsaMu4tHfNGobiKQwAN5SQuVeDzNY=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iSmFQusT_GsyTDf9fcCZ18JaqhYNUyfKNuOOwsoaDLA=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ktxqlhUndu4tDZxqECcxjGfUYIKDJBEtWZ4PP-e2dIo=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\4IhBSBFwqRkoTtdncHHkm5nLuF6MErbnFCtdasVa1oY=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Ia4rl3ICaYqMve1vRXhp4_jATQ9T3xJEodbxDI7lClo=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Jq5DZ5CBs6B1GmoNq3OwAt1MxYoiiXsddbhzbFpn6-Q=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SwEK4LTwKdpb3cBPeFrBz-UESbW6YAmRELZogHwX8os=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\XVv9cNcA6JT0futOwoEWate0-rFiL41u6lrS7M4RUNs=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Cs5xHZF-stlUbcjDY25OGJnDMUpkgG22wxzE_R5pNZE=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\76Y42u61YNBRPp4BBmRMEhdkcZMGd8n0sJPOcge4ooA=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\NlnQlr74WlanFIdv2RSDn7VbPORXNomcNcCnyONlnoM=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-wHyb0Am5o1kuM23TF48Vo0sKM1wMu_wAaXjEYHoESA=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\7HyekwVnjv0iS2iYt5cJ9R36xGfEC2G4fxqaeEofysI=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\iH0o6hoeAgdCkAkjFQotUxJGDMe1BLe8x_tUAMHjzJE=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
     },
@@ -146,7 +146,7 @@
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\aKPunEcYoo5u0a4F3RTfffuj_HrZ7boqTZMjNCZpWts=.hash",
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\zY4AQZ4PK7iAJYdKBnevcxsb_Zzr-PGeIcR7Dfz4V3Q=.hash",
       "Source": "C:\\Users\\Anderson\\Desktop\\PlanetaGundamCrest\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

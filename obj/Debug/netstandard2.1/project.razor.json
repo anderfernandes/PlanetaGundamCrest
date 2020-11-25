@@ -107,39 +107,6 @@
         }
       },
       {
-        "HashCode": -953722908,
-        "Kind": "Components.Component",
-        "Name": "PlanetaGundam.Pages.Index",
-        "AssemblyName": "PlanetaGundam",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PlanetaGundam.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1520620760,
-        "Kind": "Components.Component",
-        "Name": "PlanetaGundam.Pages.Index",
-        "AssemblyName": "PlanetaGundam",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PlanetaGundam.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PlanetaGundam.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2065843468,
         "Kind": "Components.Component",
         "Name": "PlanetaGundam.Shared.BlankLayout",
